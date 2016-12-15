@@ -373,6 +373,7 @@ body {
     vertical-align: top;
     /*margin: 10px;*/
     width: 21%;
+    margin: 48px 0;
 }
 
 .head_logo img {
@@ -466,14 +467,27 @@ body {
 
 .head_name {
     display: inline-block;
-    text-align: center;
-    font-family: 'Roboto Bold', arial;
-    /*margin: 80px 0px 0px;*/
-    width: 70%;
-    font-size: 48px;
-    color: #fff;
-    text-shadow: 0px 0px 70px #63492e;
-    line-height: 52px;
+    font-family: "OfficinaSansBold";
+    margin: 78px 135px;
+    text-align: left;
+    width: 54%;
+}
+
+.head_name h1{
+    color: #000;
+    font-size: 38px;
+    line-height: 49px;
+}
+
+.head_name p{
+    color: #555;
+    font-size: 30px;
+    line-height: 49px;
+    font-family: "OfficinaSansMedium";
+}
+
+.head_name span{
+    color: #f08111;
 }
 
 .head_namep {
@@ -513,6 +527,12 @@ body {
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.cont_top {
+    width: 1200px;
+    margin: 0 auto;
     overflow: hidden;
 }
 

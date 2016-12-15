@@ -75,11 +75,14 @@
               </div>
             </div>-->
             <div class="head_slide">
-                <div class="cont" style="margin: 0 auto">
+                <div class="cont_top">
 	                <div class="head_logo">
 	                <img src="images/logo.svg" alt="Аварийное вскрите замков дверей - Медвежатник">
 		                </div>
-                    <h1 class="head_name">Аварийное вскрытие замков дверей в Ставрополе</h1>
+                    <div class="head_name">
+                        <h1>ВСКРЫТИЕ ЗАМКОВ, ДВЕРЕЙ, СЕЙФОВ, АВТОМОБИЛЕЙ В СТАВРОПОЛЕ</h1>
+                        <p><span>99.99%</span> без повреждений, от <span>800</span> руб</p>
+                    </div>
 	                <!--<p class="head_namep">+7 (962) 441-42-50</p>-->
                 </div>
                 <!--<jdoc:include type="modules" name="names"/>-->
