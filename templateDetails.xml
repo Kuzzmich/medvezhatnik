@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+<name>medvezhatnik2016</name>
+<creationDate>23.11.2016</creationDate>
+<author>JinMedia</author>
+<authorEmail>help-line@inbox.ru</authorEmail>
+<authorUrl>web-elitit.ru</authorUrl>
+<copyright>Copyright 2016 medvezhatnik</copyright>
+<license>GNU General Public License</license>
+<version>1.0.0</version>
+<description>medvezhatnik2016</description>
+<files>
+<folder>css</folder>
+<folder>img</folder>
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+</files>
+<positions>
+<position>slides</position>
+<position>menu</position>
+<position>names</position>
+<position>mail</position>
+<position>phone</position>
+<position>adress</position>
+<position>project</position>
+<position>company</position>
+</positions>
+</extension>

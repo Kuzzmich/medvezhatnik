@@ -1,0 +1,74 @@
+@media (min-width: 1px) and (max-width: 1199px) {
+    .cont {
+        width: 98%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .cont_head {
+        width: 98%;
+    }
+
+    .bars {
+        display: inline-block;
+        overflow: hidden;
+        float: right;
+    }
+
+    .bars a {
+        float: right;
+        padding: 20px;
+    }
+
+    .bars img {
+        height: 26px;
+    }
+
+    .block_3 {
+        width: 300px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .head_phone{
+        float: left;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 519px) {
+    .call{
+        float: none;
+        display: block;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 450px) {
+    .head_logo {
+        float: left;
+    }
+
+    .head_logo img {
+        height: 50px;
+    }
+
+    /*.phone {
+        font-family: 'Roboto Bold', arial;
+        font-size: 14px;
+    }*/
+
+    .head_phone {
+        margin: 14px 10px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 999px) {
+    .map {
+        width: 100%;
+    }
+
+    .city {
+        width: 96%;
+    }
+}
