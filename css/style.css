@@ -586,7 +586,14 @@ body {
 }
 
 .block_3 img {
-    width: 100%;
+
+}
+
+.block_3 h3{
+    font-family: "OfficinaSansMedium";
+    display: inline-block;
+    margin: 10px 20px;
+    vertical-align: top;
 }
 
 /*=======TEXTS=======*/
