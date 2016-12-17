@@ -5,6 +5,12 @@
         overflow: hidden;
     }
 
+    .cont_top{
+        width: 98%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
     .cont_head {
         width: 98%;
     }
@@ -37,6 +43,26 @@
     }
 }
 
+@media (min-width: 1px) and (max-width: 897px) {
+    .head_logo{
+        margin: 115px 0;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 619px) {
+    .head_logo{
+        margin: 0;
+    }
+    .head_name{
+        margin: 0;
+        width: auto;
+    }
+    .head_logo img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
 @media (min-width: 1px) and (max-width: 519px) {
     .call{
         float: none;
@@ -47,6 +73,12 @@
 @media (min-width: 1px) and (max-width: 450px) {
     .head_logo {
         float: left;
+        margin: 0;
+    }
+
+    .head_name{
+        margin: 0;
+        width: auto;
     }
 
     .head_logo img {

@@ -176,19 +176,17 @@ body {
 }
 
 .h4 {
-    color: #fff;
-    font-size: 22px;
+    color: #000;
+    font-size: 21px;
     line-height: 26px;
-    margin: 15px;
-    height: 70px;
+    height: 58px;
+    font-family: "OfficinaSansbold";
+   /* margin: 15px;
     margin-top: -132px;
-    margin-bottom: 70px;
+    margin-bottom: 70px;*/
 }
 
 .price {
-    float: left;
-    padding: 10px 0px;
-    width: 46%;
     color: #ef8015;
     font-size: 24px;
     font-family: 'Roboto Bold', arial;
@@ -468,7 +466,8 @@ body {
 .head_name {
     display: inline-block;
     font-family: "OfficinaSansBold";
-    margin: 78px 135px;
+    margin: 78px 0 /*135px*/;
+    margin-left: 24%;
     text-align: left;
     width: 54%;
 }
@@ -550,7 +549,7 @@ body {
     padding: 30px;
     margin: 1%;
     text-align: center;
-    border: 1px solid #cccccc;
+    /*border: 1px solid #cccccc;*/
     border-radius: 2px;
     padding-bottom: 20px;
     transition: all 0.2s ease-in-out;
@@ -558,11 +557,11 @@ body {
 
 .block_4:hover {
     background: #f1f1f1;
-    border: 1px solid #f1f1f1;
+    /*border: 1px solid #f1f1f1;*/
 }
 
 .block_4 img {
-    height: 95px;
+    height: 140px;
 }
 
 .block_3 {
@@ -572,7 +571,7 @@ body {
     text-align: center;
     background: #fff;
     border-radius: 2px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     vertical-align: top;
     transition: all 0.2s ease-in-out;
 }
@@ -594,6 +593,12 @@ body {
     display: inline-block;
     margin: 10px 20px;
     vertical-align: top;
+}
+
+.shadow{
+    box-shadow: 0 13px 6px -15px inset, 0 -13px 6px -15px inset;
+    /*box-shadow:0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;*/
+
 }
 
 /*=======TEXTS=======*/

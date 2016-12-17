@@ -77,7 +77,9 @@
             <div class="head_slide">
                 <div class="cont_top">
                     <div class="head_logo">
-                        <img src="images/logo.svg" alt="Аварийное вскрите замков дверей - Медвежатник">
+                        <a href="/">
+                            <img src="images/logo.svg" alt="Аварийное вскрите замков дверей - Медвежатник">
+                        </a>
                     </div>
                     <div class="head_name">
                         <h1>ВСКРЫТИЕ ЗАМКОВ, ДВЕРЕЙ, СЕЙФОВ, АВТОМОБИЛЕЙ В СТАВРОПОЛЕ</h1>
@@ -88,7 +90,7 @@
                 <!--<jdoc:include type="modules" name="names"/>-->
             </div>
         </header><!-- .header-->
-        <!--<div id="mp-menu" class="mp-menu">
+        <div id="mp-menu" class="mp-menu">
             <div class="mp-level">
                 <div class="left">
                     <nav class="header_menu">
@@ -102,9 +104,9 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
         <main class="content">
-            <div class="content">
+            <div class="content center shadow">
                 <section class="block_3">
                     <div style="display: inline-block;">
                         <img src="images/h1.svg" alt="Вскрытие дверей">
@@ -115,7 +117,7 @@
                     <div style="display: inline-block;">
                         <img src="images/h2.svg" alt="Вскрытие дверей">
                     </div>
-                    <h3>Гарантия качества выполнения работ</h3>
+                    <h3>Гарантия качества услуг</h3>
                 </section>
                 <section class="block_3">
                     <div style="display: inline-block;">
@@ -128,59 +130,58 @@
                 <!--<jdoc:include type="component"/>-->  <!-- Код для вывода контента (статей) -->
                 <section class="block_4">
                     <a href="/index.php/vskrytie-dverej" style="text-decoration: none">
-                        <img src="images/n1.png" alt="Вскрытие дверей">
-                        <h3 class="h4">Вскрытие дверей</h3>
+                        <img src="images/n1.png" alt="Вскрытие входных и межкомнатных дверей">
+                        <h3 class="h4">Вскрытие входных и межкомнатных дверей</h3>
 
                         <p class="price">от 800 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/vskrytie-avto" style="text-decoration: none">
-                        <img src="images/n2.png" alt="Вскрытие авто">
-                        <h3 class="h4">Вскрытие авто</h3>
+                        <img src="images/n2.png" alt="Вскрытие автомобилей">
+                        <h3 class="h4">Вскрытие автомобилей</h3>
                         <p class="price">от 1000 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/vskrytie-sejfov" style="text-decoration: none">
-                        <img src="images/n3.png" alt="Вскрытие сейфов">
-                        <h3 class="h4">Вскрытие сейфов</h3>
+                        <img src="images/n3.png" alt="Вскрытие сейфов различной сложности">
+                        <h3 class="h4">Вскрытие сейфов различной сложности</h3>
                         <p class="price">от 1000 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/vskrytie-zamkov" style="text-decoration: none">
-                        <img src="images/n4.png" alt="Вскрытие замков">
-                        <h3 class="h4">Вскрытие замков</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/remont-zamkov" style="text-decoration: none">
-                        <img src="images/n5.png" alt="Ремонт замков">
-                        <h3 class="h4">Ремонт замков</h3>
-
+                        <img src="images/n4.png" alt="Ремонт замков различной сложности">
+                        <h3 class="h4">Ремонт замков различной сложности</h3>
                         <p class="price">от 800 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/ustanovka-zamkov" style="text-decoration: none">
-                        <img src="images/n6.png" alt="Установка замков">
-                        <h3 class="h4">Установка замков</h3>
+                        <img src="images/n6.png" alt="Замена и установка замков">
+                        <h3 class="h4">Замена и установка замков</h3>
                         <p class="price">от 800 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/zamena-zamkov" style="text-decoration: none">
-                        <img src="images/n7.png" alt="Замена замков">
-                        <h3 class="h4">Замена замков</h3>
+                        <img src="images/n7.png" alt="Изготовление дубликатов ключей">
+                        <h3 class="h4">Изготовление дубликатов ключей</h3>
+                        <p class="price">от 50 руб.</p>
+                    </a>
+                </section>
+                <section class="block_4">
+                    <a href="/index.php/remont-zamkov" style="text-decoration: none">
+                        <img src="images/n5.png" alt="Изготовление ключей по замку">
+                        <h3 class="h4">Изготовление ключей по замку</h3>
                         <p class="price">от 800 руб.</p>
                     </a>
                 </section>
                 <section class="block_4">
                     <a href="/index.php/dublikaty-klyuchej" style="text-decoration: none">
-                        <img src="images/n8.png" alt="Дубликаты ключей">
-                        <h3 class="h4">Дубликаты ключей</h3>
+                        <img src="images/n8.png" alt="Изготовление ключей для домофонов">
+                        <h3 class="h4">Изготовление ключей для домофонов</h3>
                         <p class="price">от 50 руб.</p>
                     </a>
                 </section>
