@@ -188,14 +188,14 @@
             </div>
             <div class="block_in center">
                 <div class="cont">
-                    <p class="h2_w">Оставьте заявку и мы обязательно Вам перезвоним</p>
-                    <form method="POST" id="feedback-forms">
+                    <p class="h2_w">КАК МЫ РАБОТАЕМ</p>
+                    <!--<form method="POST" id="feedback-forms">
                         <input type="text" name="telFF" required="" placeholder="Имя" class="text">
                         <input type="text" name="nameFF" required="" placeholder="Телефон" class="text">
                         <input type="submit" value="Отправить" class="submit">
                         <p class="head_names">+7 (962) 441-42-50</p>
                     </form>
-                    <br>
+                    <br>-->
                 </div>
             </div>
             <div class="cont">

@@ -159,11 +159,11 @@ body {
 
 .h2_w {
     text-align: center;
-    margin: 40px 0px;
-    font-size: 34px;
+    margin: 20px 0px;
+    font-size: 24px;
     text-align: center;
     line-height: 40px;
-    font-family: 'Roboto Condensed', arial;
+    font-family: 'OfficinaSansMedium';
     color: #fff;
 }
 
@@ -536,10 +536,10 @@ body {
 }
 
 .block_in {
-    background: url(../img/block_in.jpg) no-repeat;
-    background-position: bottom left;
+    background: url(../img/block_in.png) repeat-x;
+    /*background-position: bottom left;
     background-color: #ff8000;
-    margin: 20px 0px;
+    margin: 20px 0px;*/
     padding-bottom: 20px;
 }
 
