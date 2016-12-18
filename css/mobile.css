@@ -43,6 +43,22 @@
     }
 }
 
+@media (min-width: 1px) and (max-width: 943px) {
+    .icon {
+        display: block;
+    }
+
+    .block_in {
+        background: #F08111;
+        padding-bottom: 20px;
+    }
+
+    .arrow {
+        margin: 50px 0;
+        transform: rotate(90deg);
+    }
+}
+
 @media (min-width: 1px) and (max-width: 897px) {
     .head_logo{
         margin: 115px 0;
