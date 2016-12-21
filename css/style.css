@@ -117,6 +117,10 @@ body {
     text-align: left;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .bottom{
     color: #555;
 }
@@ -526,6 +530,18 @@ body {
     text-align: center;
 }
 
+.brown{
+    color: #785a37;
+    font-family: "OfficinaSansBold";
+    font-size: 40px;
+}
+
+.brown_small{
+    margin-top: 5px;
+    color: #785a37;
+    font-family: "OfficinaSansMedium";
+}
+
 .cont {
     width: 1200px;
     margin: 0 auto;
@@ -623,13 +639,40 @@ body {
 .bottom_text{
     display: inline-block;
     vertical-align: top;
-    width: 64%;
+    width: 65%;
 }
 
 .bottom_text_img{
-    width: 30%;
+    width: 25%;
     display: inline-block;
     float: right;
+}
+
+.text_section{
+    display: inline-block;
+    margin: 20px 70px;
+    width: 360px;
+}
+
+.bottom_h4{
+    font-family: officinasansbold;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.bottom_img{
+    margin: 25px 0;
+    width: 100%;
+}
+
+.city_head{
+    color: #f08111;
+    font-family: officinasansblack;
+    font-size: 20px;
+    line-height: 26px;
+    width: 68%;
 }
 
 /*=======TEXTS=======*/
@@ -658,6 +701,17 @@ body {
 
 /* Footer
 -----------------------------------------------------------------------------*/
+.bottom_logo{
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: top;
+    width: 21%;
+}
+
+.bottom_logo img {
+    height: 100px;
+}
+
 .footer {
     width: 100%;
     margin: 0px auto 0;

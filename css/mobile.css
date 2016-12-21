@@ -1,3 +1,8 @@
+@media (min-width: 1px) and (max-width: 1329px) {
+    .city_head{
+        width: auto;
+}
+}
 @media (min-width: 1px) and (max-width: 1199px) {
     .cont {
         width: 98%;
@@ -43,6 +48,16 @@
     }
 }
 
+@media (min-width: 1px) and (max-width: 999px) {
+    .map {
+        width: 100%;
+    }
+
+    .city {
+        width: 96%;
+    }
+}
+
 @media (min-width: 1px) and (max-width: 943px) {
     .icon {
         display: block;
@@ -56,6 +71,17 @@
     .arrow {
         margin: 50px 0;
         transform: rotate(90deg);
+    }
+
+    .bottom_text{
+        display: block;
+        width: 97%;
+    }
+
+    .bottom_text_img{
+        display: block;
+        margin: 0 auto;
+        float: none;
     }
 }
 
@@ -84,6 +110,11 @@
         float: none;
         display: block;
     }
+    .text_section {
+        display: inline-block;
+        width: 95%;
+        margin: 0;
+    }
 }
 
 @media (min-width: 1px) and (max-width: 450px) {
@@ -109,14 +140,8 @@
     .head_phone {
         margin: 14px 10px;
     }
-}
-
-@media (min-width: 1px) and (max-width: 999px) {
-    .map {
-        width: 100%;
+    .bottom_text_img {
+        width: 80%;
     }
 
-    .city {
-        width: 96%;
-    }
 }
