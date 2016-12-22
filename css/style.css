@@ -730,7 +730,7 @@ body {
     display: inline-block;
     vertical-align: top;
     float: right;
-    margin: 30px 40px;
+    margin: 41px 40px;
 }
 
 .footer_soc img {
@@ -795,7 +795,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .footer_menu ul {
@@ -816,7 +816,8 @@ body {
 }
 
 .footer_menu ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #F08113;
 }
 
 .map {

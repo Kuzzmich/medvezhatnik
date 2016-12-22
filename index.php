@@ -75,7 +75,7 @@
               </div>
             </div>-->
             <div class="head_slide">
-                <div class="cont_top">
+                <!--<div class="cont_top">
                     <div class="head_logo">
                         <a href="/">
                             <img src="images/logo.svg" alt="Аварийное вскрите замков дверей - Медвежатник">
@@ -86,8 +86,8 @@
                         <p><span>99.99%</span> без повреждений, от <span>800</span> руб</p>
                     </div>
                     <!--<p class="head_namep">+7 (962) 441-42-50</p>-->
-                </div>
-                <!--<jdoc:include type="modules" name="names"/>-->
+                <!--</div>-->
+                <jdoc:include type="modules" name="names"/>
             </div>
         </header><!-- .header-->
         <div id="mp-menu" class="mp-menu">
@@ -98,9 +98,13 @@
                         <jdoc:include type="modules" name="menu"/>
                     </nav>
                     <div class="head_soc">
-                        <img src="images/vk.png" alt="Медвежатник вконтатке">
-                        <img src="images/ok.png" alt="Медвежатник одноклассники">
-                        <img src="images/f.png" alt="Название компании">
+                        <a style="text-decoration: none" href="https://vk.com/club62970398" target="_blank">
+                            <img src="images/vk.png" alt="Медвежатник вконтакте">
+                        </a>
+                        <a style="text-decoration: none" href="https://ok.ru/group/58089627779111" target="_blank">
+                            <img src="images/ok.png" alt="Медвежатник одноклассники">
+                        </a>
+                        <img src="images/f.png" alt="Медвежатник фейсбук">
                     </div>
                 </div>
             </div>
@@ -127,64 +131,8 @@
                 </section>
             </div>
             <div class="cont center">
-                <!--<jdoc:include type="component"/>-->  <!-- Код для вывода контента (статей) -->
-                <section class="block_4">
-                    <a href="/index.php/vskrytie-dverej" style="text-decoration: none">
-                        <img src="images/n1.png" alt="Вскрытие входных и межкомнатных дверей">
-                        <h3 class="h4">Вскрытие входных и межкомнатных дверей</h3>
+                <jdoc:include type="component"/>  <!-- Код для вывода контента (статей) -->
 
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/vskrytie-avto" style="text-decoration: none">
-                        <img src="images/n2.png" alt="Вскрытие автомобилей">
-                        <h3 class="h4">Вскрытие автомобилей</h3>
-                        <p class="price">от 1000 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/vskrytie-sejfov" style="text-decoration: none">
-                        <img src="images/n3.png" alt="Вскрытие сейфов различной сложности">
-                        <h3 class="h4">Вскрытие сейфов различной сложности</h3>
-                        <p class="price">от 1000 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/vskrytie-zamkov" style="text-decoration: none">
-                        <img src="images/n4.png" alt="Ремонт замков различной сложности">
-                        <h3 class="h4">Ремонт замков различной сложности</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/ustanovka-zamkov" style="text-decoration: none">
-                        <img src="images/n6.png" alt="Замена и установка замков">
-                        <h3 class="h4">Замена и установка замков</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/zamena-zamkov" style="text-decoration: none">
-                        <img src="images/n7.png" alt="Изготовление дубликатов ключей">
-                        <h3 class="h4">Изготовление дубликатов ключей</h3>
-                        <p class="price">от 50 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/remont-zamkov" style="text-decoration: none">
-                        <img src="images/n5.png" alt="Изготовление ключей по замку">
-                        <h3 class="h4">Изготовление ключей по замку</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="/index.php/dublikaty-klyuchej" style="text-decoration: none">
-                        <img src="images/n8.png" alt="Изготовление ключей для домофонов">
-                        <h3 class="h4">Изготовление ключей для домофонов</h3>
-                        <p class="price">от 50 руб.</p>
-                    </a>
-                </section>
             </div>
             <div class="block_in center">
                 <div class="cont">
@@ -306,7 +254,7 @@
     </div><!-- .wrapper -->
     <div class="map">
         <script type="text/javascript" charset="utf-8"
-                src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=B1yfzdhg0MntwmWLHRpQRCuQ76J5VlFO&width=auto&height=300"></script>
+                src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=B1yfzdhg0MntwmWLHRpQRCuQ76J5VlFO&width=auto&height=357"></script>
     </div>
     <div class="city">
 
@@ -372,9 +320,13 @@
 
             </div>
             <div class="footer_soc none">
-                <img src="images/vk.png" alt="Название компании">
-                <img src="images/ok.png" alt="Название компании">
-                <img src="images/f.png" alt="Название компании">
+                <a style="text-decoration: none" href="https://vk.com/club62970398" target="_blank">
+                    <img src="images/vk.png" alt="Медвежатник вконтакте">
+                </a>
+                <a style="text-decoration: none" href="https://ok.ru/group/58089627779111" target="_blank">
+                    <img src="images/ok.png" alt="Медвежатник одноклассники">
+                </a>
+                <img src="images/f.png" alt="Медвежатник фейсбук">
             </div>
         </div>
     </footer><!-- .footer -->
